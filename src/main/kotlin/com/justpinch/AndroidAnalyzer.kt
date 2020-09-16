@@ -253,7 +253,7 @@ class AndroidAnalyzer : Plugin<Project> {
         }
 
         (project.extensions.findByName("jacoco") as JacocoPluginExtension).apply {
-            this.toolVersion = "0.8.3"
+            this.toolVersion = "0.8.6"
         }
 
         params = project.extensions.create(ExtensionName, Params::class.java)

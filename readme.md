@@ -241,6 +241,11 @@ Possible values are "true" and "false". If the variable is set to "true", the pl
 
 ## Changelog
 
+#### Version 1.4.5 - September 16, 2020
+Updated gradle, detekt and jacoco dependencies.
+
+-----------------------------------------------------------
+
 #### Version 1.4.1 - November 21, 2019
 Added a way to customize Sonarqube project key suffix.
 
